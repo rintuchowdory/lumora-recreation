@@ -10,10 +10,10 @@ const heroSlides = [
 ];
 
 const projects = [
-  { year: 'Featured', type: 'AI Engineering', name: 'Aura-AI', description: 'AI-powered interview coach with voice mode and Cloudflare Worker proxy.', tags: ['React', 'Vite', 'Groq', 'Cloudflare'], image: '/manus-storage/lumora-work-aster_3056238c.jpg', href: 'https://rintu-portfolio.vercel.app/' },
-  { year: 'Featured', type: 'Full-Stack', name: 'ChatGPT Clone (NexusAI)', description: 'Dark-themed GPT clone with multi-session sidebar, streaming, and voice Talk Mode, built on Alpine Linux via QEMU.', tags: ['FastAPI', 'Groq', 'Vercel'], image: '/manus-storage/lumora-work-nova_a608fc9d.jpg', href: 'https://rintu-portfolio.vercel.app/' },
-  { year: 'Featured', type: 'Civic Tech', name: 'GrundgesetzGPT', description: 'AI-powered German Basic Law app deployed to Manus, using Groq Llama3-70b through a Cloudflare Worker.', tags: ['React', 'Vite', 'Groq', 'Cloudflare'], image: '/manus-storage/lumora-work-pulse_bea3b703.jpg', href: 'https://rintu-portfolio.vercel.app/' },
-  { year: 'Featured', type: 'Social Impact', name: 'Name statt Können', description: 'Social impact platform visualizing hiring discrimination in Germany.', tags: ['React', 'Vite', 'Tailwind'], image: '/manus-storage/lumora-work-aster_3056238c.jpg', href: 'https://rintu-portfolio.vercel.app/' },
+  { year: 'Featured', type: 'AI Engineering', name: 'Aura-AI', description: 'AI-powered interview coach with voice mode and Cloudflare Worker proxy.', tags: ['React', 'Vite', 'Groq', 'Cloudflare'], image: 'https://placehold.co/600x400/1a1a1a/ffffff?text=Aster', href: 'https://rintu-portfolio.vercel.app/' },
+  { year: 'Featured', type: 'Full-Stack', name: 'ChatGPT Clone (NexusAI)', description: 'Dark-themed GPT clone with multi-session sidebar, streaming, and voice Talk Mode, built on Alpine Linux via QEMU.', tags: ['FastAPI', 'Groq', 'Vercel'], image: 'https://placehold.co/600x400/1a1a1a/ffffff?text=Nova', href: 'https://rintu-portfolio.vercel.app/' },
+  { year: 'Featured', type: 'Civic Tech', name: 'GrundgesetzGPT', description: 'AI-powered German Basic Law app deployed to Manus, using Groq Llama3-70b through a Cloudflare Worker.', tags: ['React', 'Vite', 'Groq', 'Cloudflare'], image: 'https://placehold.co/600x400/1a1a1a/ffffff?text=Pulse', href: 'https://rintu-portfolio.vercel.app/' },
+  { year: 'Featured', type: 'Social Impact', name: 'Name statt Können', description: 'Social impact platform visualizing hiring discrimination in Germany.', tags: ['React', 'Vite', 'Tailwind'], image: 'https://placehold.co/600x400/1a1a1a/ffffff?text=Aster', href: 'https://rintu-portfolio.vercel.app/' },
 ];
 
 const services = [
@@ -76,7 +76,7 @@ export default function Home() {
 
       <main id="home">
         <section className="hero">
-          <img className="hero-image" src="/manus-storage/Foto2026_ccd62c17.png" alt="Editorial portrait" />
+          <img className="hero-image" src="https://placehold.co/800x1000/1a1a1a/ffffff?text=Portrait" alt="Editorial portrait" />
           <div className="hero-vignette" />
           <div className="hero-inner lumora-shell">
             <div className="hero-copy">
